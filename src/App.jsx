@@ -30,6 +30,7 @@ function App() {
     <div>
       <Routes>
         {/* Public Routes */}
+        <Route path="/" element={<Navigate replace to="/website" />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/website" element={<WebLayout />} />
