@@ -1,41 +1,40 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import axios from 'axios';
 import api from "../../../api";
 
 const ViewAppointments = () => {
-  const { userId } = useParams();  // Extract the userId from the URL
+  const { userId } = useParams();
   const [appointments, setAppointments] = useState([]);
 
   useEffect(() => {
     if (userId) {
-      // Fetch appointments for the specific user using the userId
       api.get(`/appointments/${userId}`)
         .then((response) => {
-          setAppointments(response.data);  // Set the fetched data to the state
+          setAppointments(response.data);
         })
         .catch((error) => {
           console.error('Error fetching appointments:', error);
         });
     }
-  }, [userId]); // Re-run the effect if userId changes
+  }, [userId]);
 
   return (
-    <div className="max-w-6xl mx-auto mt-8">
+    <div className="max-w-6xl mx-auto mt-8 px-4">
       <h2 className="text-xl font-bold text-gray-800 text-center mb-6">
-        View my Appointments
+        View My Appointments
       </h2>
+      
       <div className="overflow-x-auto bg-white shadow-lg rounded-lg">
-        <table className="min-w-full table-auto">
+        <table className="w-full min-w-[500px] md:min-w-full table-auto">
           <thead>
-            <tr className="bg-gray-800">
-              <th className="py-3 px-6 text-left text-gray-200 font-semibold uppercase">
+            <tr className="bg-gray-800 text-gray-200 text-sm md:text-base">
+              <th className="py-3 px-4 md:px-6 text-left font-semibold uppercase">
                 Date
               </th>
-              <th className="py-3 px-6 text-left text-gray-200 font-semibold uppercase">
+              <th className="py-3 px-4 md:px-6 text-left font-semibold uppercase">
                 Time
               </th>
-              <th className="py-3 px-6 text-left text-gray-200 font-semibold uppercase">
+              <th className="py-3 px-4 md:px-6 text-left font-semibold uppercase">
                 Services
               </th>
             </tr>
@@ -48,9 +47,13 @@ const ViewAppointments = () => {
                   index % 2 === 0 ? "bg-gray-50" : "bg-white"
                 } hover:bg-gray-200 transition duration-300`}
               >
-                <td className="py-3 px-6 text-gray-700">{appointment.date}</td>
-                <td className="py-3 px-6 text-gray-700">{appointment.time}</td>
-                <td className="py-3 px-6 text-gray-700">
+                <td className="py-2 px-4 md:px-6 text-gray-700 text-sm md:text-base">
+                  {appointment.date}
+                </td>
+                <td className="py-2 px-4 md:px-6 text-gray-700 text-sm md:text-base">
+                  {appointment.time}
+                </td>
+                <td className="py-2 px-4 md:px-6 text-gray-700 text-sm md:text-base">
                   {appointment.services.join(", ")}
                 </td>
               </tr>
