@@ -7,6 +7,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.navbar{
+  background-color:  rgb(0, 3, 0) ;
+  opacity: 0.9;
+}
+
+.sidenav{
+  background-color:  rgb(0, 3, 0) ;
+  opacity: 0.9;
+}
 
 
 .landing {

@@ -8,8 +8,9 @@ const Navbar = () => {
   return (
     <>
       {/* Top Navigation (Visible on larger screens) */}
-      <nav className="text-white px-12 py-4 flex justify-between items-center">
-        <div className="text-xl font-bold"><img className="logo"src={logo}/></div>
+      <nav className="navbar fixed top-0 w-full text-white px-2 lg:px-10 py-3 flex justify-between items-center shadow-lg z-30">
+
+       <a href="#index"><img className="logo"src={logo}/></a>
         
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-orange-300 cursor-pointer">
@@ -33,7 +34,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-white focus:outline-none text-2xl" 
+          className="md:hidden text-white focus:outline-none text-3xl" 
           onClick={() => setIsOpen(true)}
         >
           ☰
@@ -41,7 +42,7 @@ const Navbar = () => {
       </nav>
 
       {/* Sidebar (Visible on mobile when open) */}
-      <div className={`fixed top-0 right-0 w-64 h-full bg-gray-900 text-white transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out md:hidden`}>
+      <div className={`sidenav fixed top-0 right-0 w-64 h-full bg-gray-900 text-white transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out md:hidden z-50`}>
         <button 
           className="absolute top-4 right-4 text-2xl" 
           onClick={() => setIsOpen(false)}
@@ -49,11 +50,27 @@ const Navbar = () => {
           ✕
         </button>
 
-        <ul className="mt-12 space-y-4 text-center">
-          <li><a href="#" className="block py-2 hover:bg-gray-700">Home</a></li>
-          <li><a href="#" className="block py-2 hover:bg-gray-700">About</a></li>
-          <li><a href="#" className="block py-2 hover:bg-gray-700">Services</a></li>
-          <li><a href="#" className="block py-2 hover:bg-gray-700">Contact</a></li>
+        <ul className="mt-20 space-y-5 text-center">
+        <li>
+    <a className="relative group" href="#index" onClick={() => setIsOpen(false)}>
+      Home
+    </a>
+  </li>
+  <li>
+    <a className="relative group" href="#services" onClick={() => setIsOpen(false)}>
+      Services
+    </a>
+  </li>
+  <li>
+    <a className="relative group" href="#booksession" onClick={() => setIsOpen(false)}>
+      Book Session
+    </a>
+  </li>
+  <li>
+    <a className="relative group" href="#testimonials" onClick={() => setIsOpen(false)}>
+      About
+    </a>
+  </li>
           
         </ul>
       </div>

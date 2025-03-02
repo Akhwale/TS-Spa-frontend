@@ -60,7 +60,7 @@ const ProfileForm = () => {
 
         try {
             // Send the updated data to the backend to update the profile
-            const response = await axios.put('/api/user', formData, {
+            const response = await api.put('/api/user', formData, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('authToken')}`,
                 },

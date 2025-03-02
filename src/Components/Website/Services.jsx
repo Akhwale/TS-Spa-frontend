@@ -66,7 +66,7 @@ const Services = () => {
     <div className="bg-red-100 landingi" id="services">
       <div className="services text-center default">
         {/* Title */}
-        <div className="font-bold text-gray-600 text-3xl lg:text-4xl p-2 md:p-6 mt-1 md:mt-4">Top Services</div>
+        <div className="font-bold text-gray-700 text-3xl lg:text-4xl p-2 md:p-6 mt-1 md:mt-4">Top Services</div>
 
         {/* Cards Grid */}
         <div className="pt-6 md:pt-10">
