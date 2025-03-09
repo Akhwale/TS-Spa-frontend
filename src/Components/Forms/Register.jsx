@@ -46,7 +46,7 @@ export default function Register() {
     <div className="landing min-h-screen flex flex-col justify-around">
        <div className="p-6 max-w-lg mx-auto bg-gray-900/40 w-full rounded-xl">
        <div className="text-4xl font-bold flex justify-around">
-        <img className="logo" src='https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260322/TS%20Spa/logo.png' />
+        <img className="logo" src='https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/logo.png' />
       </div>
 
       <h1 className="text-xl text-gray-300 font-bold mb-4">Register</h1>

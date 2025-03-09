@@ -8,6 +8,8 @@ import Layout from "./Components/BookingApp/Layout";
 import AdminLayout from "./Components/Admin/AdminLayout";
 import Dashboard from "./Components/Admin/Dashboard";
 import ClientDetails from './Components/Admin/ClientDetails'
+import Staff from './Components/Forms/Staff'
+import Service from './Components/Forms/Service'
 
 import WebLayout from "./Components/Website/WebLayout";
 import './App.css';
@@ -79,6 +81,8 @@ function App() {
           <Route path="appointments" element={<BookedAppointments />} />
           <Route path="profile" element={<UpdateProfile />} />
           <Route path="clients" element={<ClientDetails />} />
+          <Route path="addStaff" element={<Staff/>} />
+          <Route path="addService" element={<Service />} />
         </Route>
       </Routes>
     </div>

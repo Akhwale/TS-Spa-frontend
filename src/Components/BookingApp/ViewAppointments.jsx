@@ -37,7 +37,7 @@ const ViewAppointments = () => {
     <div className="max-w-6xl mx-auto mt-8 px-4 bg-white-100 lg:bg-gray-100 pb-5 ">
       <img
         className="mx-auto pb-2 w-16"
-        src="https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260322/TS%20Spa/logo.png"
+        src="https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/logo.png"
       />
 
       <h2 className="text-lg font-semibold mb-4 text-center">

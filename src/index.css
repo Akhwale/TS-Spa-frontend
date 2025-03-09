@@ -23,16 +23,7 @@ html {
   background-image: 
   linear-gradient(to bottom , rgb(0, 3, 0), rgba(124, 124, 124, 0.15)), 
   
-  url('https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260343/TS%20Spa/background.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-}
-
-.landingi {
-  position: relative;
-  background-image: 
-  linear-gradient(to top , rgb(0, 3, 0), rgba(124, 124, 124, 0.10));
+  url('https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/background');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 

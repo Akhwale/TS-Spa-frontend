@@ -100,11 +100,7 @@ const SidebarLayout = () => {
                 Update Profile
               </Link>
             </li>
-            <li className="border-b border-gray-500 hover:border-gray-400 pb-3">
-              <Link to="appointments" className="hover:text-gray-100 hover:font-bold" onClick={() => setIsSidebarOpen(false)}>
-                Booked Appointments
-              </Link>
-            </li>
+            
             <li className="border-b border-gray-500 hover:border-gray-400 pb-3">
               <button
                 onClick={() => { handleLogout(); setIsSidebarOpen(false); }}

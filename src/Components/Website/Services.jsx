@@ -32,25 +32,25 @@ const Services = () => {
   const [showServices, setShowServices] = useState(false);
   const cards = [
     {
-      image: 'https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260337/TS%20Spa/img_10_na5d3o.jpg',
+      image: 'https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/img_10_na5d3o',
       description: [
         "Get a tailored trim, fade, or styled cut based on your preference, ensuring a sharp and polished look.",
       ],
     },
     {
-      image: 'https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260323/TS%20Spa/img_1_vkgc5n.jpg',
+      image: 'https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/img_1_vkgc5n.jpg',
       description: [
         "Enhance your nails with our professional nail polish service, designed to give you a flawless, long-lasting finish.",
       ],
     },
     {
-      image: 'https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260334/TS%20Spa/img_3_ylmlbh.jpg',
+      image: 'https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/img_12_gihq6j',
       description: [
         "Our friendly barbers specialize in gentle, precise cuts and trims, ensuring a stylish yet age-appropriate look for every kid.",
       ],
     },
     {
-      image: 'https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260325/TS%20Spa/img_4_h5x4ss.jpg',
+      image: 'https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/img_4_h5x4ss.jpg',
       description: [
         "Rejuvenate your skin with our professional facial treatment, designed to cleanse, hydrate, and refresh your complexion.",
       ],

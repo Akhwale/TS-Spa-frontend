@@ -101,6 +101,18 @@ const SidebarLayout = () => {
                 My Cients' Details
               </Link>
             </li>
+
+            {/* <li className="border-b border-gray-500 hover:border-gray-400 pb-3">
+              <Link to="addStaff" className="hover:text-gray-100 hover:font-bold" onClick={() => setIsSidebarOpen(false)}>
+                Add Staff
+              </Link>
+            </li>
+
+            <li className="border-b border-gray-500 hover:border-gray-400 pb-3">
+              <Link to="addService" className="hover:text-gray-100 hover:font-bold" onClick={() => setIsSidebarOpen(false)}>
+                Add a service
+              </Link>
+            </li> */}
            
             <li className="border-b border-gray-500 hover:border-gray-400 pb-3">
               <Link to="profile" className="hover:text-gray-100 hover:font-bold" onClick={() => setIsSidebarOpen(false)}>

@@ -9,7 +9,7 @@ const Navbar = () => {
       {/* Top Navigation (Visible on larger screens) */}
       <nav className="navbar fixed top-0 w-full text-white px-2 lg:px-10 py-3 flex justify-between items-center shadow-lg z-30">
 
-       <a href="#index"><img className="logo"src='https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260322/TS%20Spa/logo.png'/></a>
+       <a href="#index"><img className="logo"src='https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/logo.png'/></a>
         
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-orange-300 cursor-pointer">

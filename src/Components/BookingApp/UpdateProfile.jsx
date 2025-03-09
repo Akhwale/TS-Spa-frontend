@@ -82,7 +82,7 @@ const ProfileForm = () => {
     return (
         <div className="flex justify-center items-center min-h-screen bg-gray-100 w-full">
             <div className="p-2 md:p-6 m-2 md:m-12 w-full bg-white shadow-lg">
-            <img className="mx-auto pb-2 w-16" src='https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260322/TS%20Spa/logo.png'/>
+            <img className="mx-auto pb-2 w-16" src='https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/logo.png'/>
 
                 <h2 className="text-lg font-semibold mb-4 text-center">Update Profile</h2>
 

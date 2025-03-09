@@ -27,16 +27,16 @@ export default function BookSession() {
                 {/* Right Content */}
                 <div className="w-full md:w-1/2 grid grid-cols-2 gap-2">
                     <div className="aspect-square overflow-hidden shadow-lg">
-                        <img src='https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260331/TS%20Spa/img_11_yadhsm.jpg' alt="Slide 11" className="w-full h-full object-cover" />
+                        <img src='https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/img_11_yadhsm.jpg' alt="Slide 11" className="w-full h-full object-cover" />
                     </div>
                     <div className="aspect-square overflow-hidden shadow-lg">
-                        <img src='https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260324/TS%20Spa/img_13_dnveyd.jpg' alt="Slide 13" className="w-full h-full object-cover" />
+                        <img src='https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/img_13_dnveyd.jpg' alt="Slide 13" className="w-full h-full object-cover" />
                     </div>
                     <div className="aspect-square overflow-hidden shadow-lg">
-                        <img src='https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260337/TS%20Spa/img_12_gihq6j.jpg' alt="Slide 12" className="w-full h-full object-cover" />
+                        <img src='https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/img_12_gihq6j.jpg' alt="Slide 12" className="w-full h-full object-cover" />
                     </div>
                     <div className="aspect-square overflow-hidden shadow-lg">
-                        <img src='https://res.cloudinary.com/dr9a3cu3y/image/upload/v1741260329/TS%20Spa/img_8_z5dr5p.png' alt="Slide 8" className="w-full h-full object-cover" />
+                        <img src='https://res.cloudinary.com/dr9a3cu3y/image/upload/c_scale,w_1200/f_auto/q_auto:best/TS%20Spa/img_8_z5dr5p.png' alt="Slide 8" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
