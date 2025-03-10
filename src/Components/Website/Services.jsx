@@ -78,7 +78,7 @@ const Services = () => {
         <div className="pt-20">
           <button
             onClick={() => setShowServices(!showServices)}
-            className="border border-gray-100 border-2 text-gray-100 py-2 px-6 hover:bg-gray-900 hover:text-white"
+            className="border border-gray-100 border-2 text-gray-100 py-2 px-6 hover:bg-gray-900 hover:text-white bg-gray-700"
           >
             {showServices ? "Hide Services" : "View All Services"}
           </button>
